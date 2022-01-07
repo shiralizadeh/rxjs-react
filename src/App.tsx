@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.css";
+
+import CardHeader from "./invoice/CardHeader";
+import InvoiceFooter from "./invoice/InvoiceFooter";
+import InvoiceHeader from "./invoice/InvoiceHeader";
+import InvoiceItems from "./invoice/InvoiceItems";
+import Controls from "./invoice/Controls";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="card m-5">
+        <CardHeader />
+
+        <div className="card-body">
+          <InvoiceHeader />
+
+          <InvoiceItems />
+
+          <InvoiceFooter />
+        </div>
+
+        <Controls />
+      </div>
     </div>
   );
 }
