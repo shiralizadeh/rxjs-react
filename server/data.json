@@ -1,0 +1,22 @@
+{
+  "invoiceItems": [
+    {
+      "id": 1,
+      "title": "Apple AirPods 3 MME73",
+      "unitCost": 500,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "title": "Logitech HD WebCam C270/L960-001063",
+      "unitCost": 200,
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "title": "Genius Wireless NX-7005 Black",
+      "unitCost": 250,
+      "quantity": 4
+    }
+  ]
+}
